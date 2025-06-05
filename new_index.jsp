@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>用户登录</title>
+    <title>用户 登录</title>
     <link href="/websites/gyunLogin/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="/websites/gyunLogin/layui/css/layui.css" media="all">
     <script src='/websites/gyunLogin/layui/layui.js'></script>
