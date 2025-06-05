@@ -1,15 +1,10 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> de174ad (我的第一次提交)
 <script type="text/javascript">
 	if (top == self) {
 		//alert("在最顶层");
 	} else {
 		window.top.location.href = "/";
 	}
-<<<<<<< HEAD
-=======
 
 	// 登录失败次数限制和锁定机制
 	var loginFailCount = 0;
@@ -69,34 +64,34 @@
 			alert('您的账户已被锁定，请稍后尝试。');
 		}
 	};
->>>>>>> de174ad (我的第一次提交)
+
 </script>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-<<<<<<< HEAD
+
 	<title></title>
-=======
+
 	<title>用户登录</title>
->>>>>>> de174ad (我的第一次提交)
+
 	<link href="/websites/gyunLogin/css/style.css" rel="stylesheet" />
 	<link rel="stylesheet" href="/websites/gyunLogin/layui/css/layui.css" media="all">
 	<script src='/websites/gyunLogin/layui/layui.js'></script>
 
-<<<<<<< HEAD
+
 	<script type="text/javascript" src="/scripts/jquery/jquery-1.11.min.js?random=1747721601591" ></script>
 
 	<script src='/websites/login/zww_loginNew.jsp?act=enter'></script>
 	<script src='/websites/test.js'></script>
 
-=======
+
 	<script type="text/javascript" src="/scripts/jquery-1.1.min.js?random=174721601591"></script>
 
 	<script src='/websites/login/zww_loginNew.jsp?act=enter'></script>
 	<script src='/websites/test.js'></script>
->>>>>>> de174ad (我的第一次提交)
+
 </head>
 <body>
 <div class="loginbg">
@@ -130,38 +125,34 @@
 </div>
 </body>
 <script>
-<<<<<<< HEAD
+
 	var base='http://222.189.15.73:1088';
-=======
+
 	var base='http://2.189.15.73:108';
->>>>>>> de174ad (我的第一次提交)
+
 
 	function login(){
 		$("[name='form_05_login']").submit();
 	}
 
-<<<<<<< HEAD
 
-=======
+
 	// 点击验证码图片更换验证码
->>>>>>> de174ad (我的第一次提交)
+
 	$("#vercodeimg").on('click', function(){
 		$(this).attr("src", "/websites/zwwlogin/captcha.jsp?time=" + Math.random());
 		$("#vercode").val("");
 	});
 
-<<<<<<< HEAD
-=======
-	// 回车键登录
->>>>>>> de174ad (我的第一次提交)
+
+
 	document.onkeydown = function(e){
 		var ev = document.all ? window.event : e;
 		if (ev.keyCode==13) {
 			$("#submit").click();
 		}
 	}
-<<<<<<< HEAD
-=======
+
 
 	// 登录失败处理
 	$(document).ready(function() {
@@ -172,6 +163,6 @@
 		// 更新本地存储
 		localStorage.setItem('loginFailCount', failCountParam);
 	}
->>>>>>> de174ad (我的第一次提交)
+
 </script>
 </html>
